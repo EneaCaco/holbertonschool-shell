@@ -1,2 +1,2 @@
-f_only#!/bin/bash
-[ "$(stat -c %U hello)" = "guillaume" ] || sudo chown vincent hello
+#!/bin/bash
+chown  --from=guillaume betty hello
